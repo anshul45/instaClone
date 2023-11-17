@@ -19,7 +19,6 @@ const ShowComments = () => {
   const dispatch = useDispatch();
 
   const commentsData = data.find((post) => post.id === postId);
-  console.log(commentsData);
 
   useEffect(() => {
     const handleOutsideClick = (event) => {
